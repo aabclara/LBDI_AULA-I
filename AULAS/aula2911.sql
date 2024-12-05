@@ -50,6 +50,8 @@ update tbcidade set idcidade = 555 where idcidade = 01;
 		references tbcidade(idcidade) on DELETE cascade ON UPDATE cascade;
 
 
+
+-- EXEMPLO
 create table tbvenda(
     idvenda int,
     datavenda datetime,
